@@ -19,7 +19,7 @@ export async function getSession(request: Request) {
 }
 
 // This type is just to show the return  of get user behind
-type User ={
+export type User ={
     id: string;
     name: string;
 }
